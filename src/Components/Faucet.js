@@ -72,9 +72,9 @@ const Faucet = (props) => {
 						type: "ERC20",
 						options: {
 							address: TokenAddress,
-							symbol: "SANDY",
+							symbol: "tDYNO",
 							decimals: 18,
-							image: "https://avatars.githubusercontent.com/u/44255731?v=4",
+							image: "https://dynoprotocol.com/wp-content/uploads/2022/03/coin.png",
 						},
 					},
 					id: Math.round(Math.random() * 100000),
@@ -95,12 +95,12 @@ const Faucet = (props) => {
 					method: "wallet_addEthereumChain",
 					params: [
 						{
-							chainId: "0x13881",
-							chainName: "Polygon Testnet",
-							rpcUrls: ["https://rpc-mumbai.maticvigil.com/"],
+							chainId: "3967",
+							chainName: "DYNO Testnet",
+							rpcUrls: ["https://tapi.dynoprotocol.com/"],
 							nativeCurrency: {
-								name: "MATIC",
-								symbol: "MATIC",
+								name: "tDYNO",
+								symbol: "tDYNO",
 								decimals: 18,
 							},
 						},
